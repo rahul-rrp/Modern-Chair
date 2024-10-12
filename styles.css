@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
-
 *,
 *::before,
 *::after {
@@ -87,22 +85,22 @@ p {
 
 label.first-color {
   margin-left: 500px;
-  background-image: url("./images/color1.jpg");
+  background-image: url("Images/color1.jpg");
 }
 label.color-2 {
-  background-image: url("./images/color2.jpg");
+  background-image: url("Images/color2.jpg");
 }
 label.color-3 {
-  background-image: url("./images/color3.jpg");
+  background-image: url("Images/color3.jpg");
 }
 label.color-4 {
-  background-image: url("./images/color4.jpg");
+  background-image: url("Images/color4.jpg");
 }
 label.color-5 {
-  background-image: url("./images/color5.jpg");
+  background-image: url("Images/color5.jpg");
 }
 label.color-6 {
-  background-image: url("./images/color6.jpg");
+  background-image: url("Images/color6.jpg");
 }
 
 .img-wrap {
@@ -118,7 +116,7 @@ label.color-6 {
   background-position: center top;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("./images/chair1.png");
+  background-image: url("Images/chair1.png");
   opacity: 0;
 }
 
@@ -127,35 +125,35 @@ label.color-6 {
   animation: shake 0.7.s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-2 {
-  background-image: url("./images/chair2.png");
+  background-image: url("Images/chair2.png");
 }
 .for-color-2:checked ~ .img-wrap.chair-2 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-3 {
-  background-image: url("./images/chair3.png");
+  background-image: url("Images/chair3.png");
 }
 .for-color-3:checked ~ .img-wrap.chair-3 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-4 {
-  background-image: url("./images/chair4.png");
+  background-image: url("Images/chair4.png");
 }
 .for-color-4:checked ~ .img-wrap.chair-4 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-5 {
-  background-image: url("./images/chair5.png");
+  background-image: url("Images/chair5.png");
 }
 .for-color-5:checked ~ .img-wrap.chair-5 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-6 {
-  background-image: url("./images/chair6.png");
+  background-image: url("Images/chair6.png");
 }
 .for-color-6:checked ~ .img-wrap.chair-6 {
   opacity: 1;
